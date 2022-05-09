@@ -70,6 +70,7 @@ div button {
     padding: 14px 25px;
     background-color:red;
     border-radius: 12px;
+    cursor: pointer;
 }
 
 img#cutePics {
@@ -134,7 +135,23 @@ a:visited {
     color: red;
 }
 
-.contactLinks a img {
+.contactList{
+    list-style: none;
+    text-align: center;
+    font-size: large;
+}
+
+li.contactLinks a img {
     width: 100px;
     height: 100px;
+    margin: auto;
+    display: block; width: 100px;
+    height: 100px;
+    margin-top: 5%;
+    display: block;
+    text-align: center;
+}
+
+ul li.contactLinks {
+    font-size: large;
 }
