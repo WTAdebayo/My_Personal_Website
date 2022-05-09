@@ -8,10 +8,14 @@ header {
     text-align: center;
     color: white;
 }
+
 header > img {
     height: 500px;
     width: 500px;
 }
+div form{
+     display: contents;
+ }
 button {
     padding: 14px 40px;
     margin: 5%;
@@ -20,37 +24,47 @@ button {
     color: white;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
-    
 }
-#button1 {
+
+    
+
+.button1 {
     background-color: deepskyblue;
 }
-#button1:hover {
+.button1:hover {
     background-color:  black;
 }
 
-#button2 {
+.button2 {
     background-color: darkorange;
 }
 
-#button2:hover {
+.button2:hover {
     background-color:  black;
 }
 
-#button3 {
+.button3 {
     background-color: tomato;
 }
 
-#button3:hover {
+.button3:hover {
     background-color:  black;
 }
 
-#button4 {
+.button4 {
     background-color: greenyellow;
 }
 
-#button4:hover {
+.button4:hover {
     background-color:  black;
+}
+
+.button5 {
+    background-color: blueviolet;
+}
+
+.button5:hover {
+    background-color: black;
 }
 
 h2 {
