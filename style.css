@@ -59,7 +59,7 @@ h2 {
     color:white;
 }
 
-div img {
+img#married {
     width: 300px;
     height: 300px;
     margin-left: 40% ;
@@ -68,4 +68,8 @@ div img {
 p {
     color: white;
 
+}
+
+img#future {
+    margin-left: 35% ;
 }

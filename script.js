@@ -1,3 +1,4 @@
-const h2 = document.createElement("h2");
-h2.textContent = "This content created by JavaScript";
-document.querySelector("body").appendChild(h2);
+const button = document.querySelector("button1");
+button.addEventListener("click", function() {
+    document.getElementbyId("aboutMe").scrollIntoView();
+});
