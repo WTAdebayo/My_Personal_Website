@@ -1,7 +1,7 @@
 body {
     background: url(./images/programming.jpg) center no-repeat;
     background-size: cover;
-    background-attachment: scroll;
+    background-attachment: fixed;
 }
 
 header {
@@ -9,10 +9,6 @@ header {
     color: white;
 }
 
-header > img {
-    height: 500px;
-    width: 500px;
-}
 div form{
      display: contents;
  }
@@ -52,7 +48,7 @@ button {
 }
 
 .button4 {
-    background-color: greenyellow;
+    background-color:forestgreen;
 }
 
 .button4:hover {
@@ -65,6 +61,24 @@ button {
 
 .button5:hover {
     background-color: black;
+}
+
+div button {
+    text-align: center;
+    margin-bottom: 5px;
+    background-color:red
+}
+
+img#cutePics {
+    height: 300px;
+    width: 300px;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+
+h4 {
+    text-align: center;
+    color: white;
 }
 
 h2 {
