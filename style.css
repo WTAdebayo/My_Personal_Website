@@ -9,10 +9,10 @@ header {
     color: white;
 }
 
-div form{
+header div form{
      display: contents;
  }
-button {
+header div form button {
     padding: 14px 40px;
     margin: 5%;
     text-align: center;
@@ -20,6 +20,7 @@ button {
     color: white;
     border: none;
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+    border-radius: 0px;
 }
 
     
@@ -65,8 +66,10 @@ button {
 
 div button {
     text-align: center;
-    margin-bottom: 5px;
-    background-color:red
+    border: 1px;
+    padding: 14px 25px;
+    background-color:red;
+    border-radius: 12px;
 }
 
 img#cutePics {
@@ -99,5 +102,17 @@ p {
 }
 
 img#future {
-    margin-left: 35% ;
+    margin: auto;
+    display: block;
+}
+
+img#projects {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    display: block;
+}
+
+footer {
+    color:lightgrey;
 }
