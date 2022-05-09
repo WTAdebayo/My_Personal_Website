@@ -75,8 +75,8 @@ div button {
 img#cutePics {
     height: 300px;
     width: 300px;
-    margin-left: 40%;
-    margin-top: 5%;
+    margin: auto;
+    display: block;
 }
 
 h4 {
@@ -93,7 +93,8 @@ h2 {
 img#married {
     width: 300px;
     height: 300px;
-    margin-left: 40% ;
+    margin: auto;
+    display: block;
 }
 
 p {
@@ -119,4 +120,21 @@ footer {
 
 li {
     color: white;
+}
+
+p#projects {
+    font-size: large;
+}
+
+a:-webkit-any-link {
+    color: blue;
+}
+
+a:visited {
+    color: red;
+}
+
+.contactLinks a img {
+    width: 100px;
+    height: 100px;
 }
